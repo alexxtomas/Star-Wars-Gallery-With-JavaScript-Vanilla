@@ -1,0 +1,29 @@
+.planets-container {
+    width: 100vw;
+    height: 20vh;
+    text-align: center;
+}
+
+.planet-figure {
+    display: inline-block;
+    width: 30%;
+    height: 30%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.planet-image {
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+
+}
+
+.planet-figcaption {
+    font-size: 1.3rem;
+}
+
+.planet-figure:hover {
+    width: 35%;
+    height: 35%;
+}
