@@ -27,7 +27,7 @@ html {
 }
 
 body {
-    background-color: var(--background);
+    background-image: url('./public/images/stars.png');
     color: var(--primary);
 
 }
