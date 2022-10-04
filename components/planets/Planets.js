@@ -1,24 +1,21 @@
 import planetsService from '../../services/planetsService'
 import './styles.css'
 
-let Planets = ``
-
+let PlanetsHTML = ''
 const planets = await planetsService.getAllPlanets()
-planets.map(({image, name}) => {
-    Planets += `
+planets.forEach(({ image, name }) => {
+  PlanetsHTML += `
         <figure class="planet-figure">
             <img class="planet-image" src="${image}" alt="${name} image">
             <figcaption class="planet-figcaption">${name}</figcaption>
         </figure>
         `
-    })
+})
 
-Planets = `
+PlanetsHTML = `
     <div class="planets-container">
-        ${Planets}
+        ${PlanetsHTML}
     </div>
 `
 
-
-export default  Planets
-
+export default { PlanetsHTML, planets }

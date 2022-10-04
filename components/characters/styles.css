@@ -1,0 +1,31 @@
+.characters-container {
+    width: 100%;
+    height: 60%;
+    text-align: center;
+
+}
+
+.character-figure {
+    width: 40%;
+    height: 40%;
+    display: inline-block;
+    cursor: pointer;
+    margin: 1rem;
+
+}
+
+.character-figcaption {
+    font-size: 1rem;
+
+}
+
+.character-image {
+    width: 8rem;
+    height: 8rem;
+
+}
+
+.character-figure:hover {
+    width: 25%;
+    height: 27%;
+}
