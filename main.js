@@ -5,7 +5,8 @@ import Header from './components/header/Header'
 import Planets from './components/planets/Planets'
 import charactersService from './services/charactersService'
 import './styles.css'
-
+console.log(window.screen.width)
+console.log(window.screen.height)
 const { PlanetsHTML, planets } = Planets
 
 document.body.addEventListener('click', ({ path }) => {

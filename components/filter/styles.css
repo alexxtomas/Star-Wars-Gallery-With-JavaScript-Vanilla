@@ -2,6 +2,8 @@
     width: 100vw;
     height: 10vh;
     text-align: center;
+    position: relative;
+    z-index: 2;
 }
 
 .click-title {
@@ -11,15 +13,150 @@
 }
 
 .search-container label {
-    font-size: 1rem;
+    font-size: 1.2rem;
     padding-top: 1rem;
 
 }
 
 .search-container input {
-    background-color: #ccc;
     border-radius: 1rem;
-    color: var(--background);
     font-size: 0.9rem;
     text-align: center;
+}
+
+
+@media screen and (min-width: 800px) {
+    .click-title {
+        font-size: 1.5rem;
+
+    }
+
+    .search-container label {
+        font-size: 1.2rem;
+        padding-top: 1rem;
+
+    }
+
+    .search-container input {
+        background-color: #ccc;
+        border-radius: 1rem;
+        color: var(--background);
+        font-size: 1.2rem;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 1500px) {
+    .click-title {
+        font-size: 1.7rem;
+
+    }
+
+    .search-container label {
+        font-size: 1.4rem;
+        padding-top: 1rem;
+
+    }
+
+    .search-container input {
+        background-color: #ccc;
+        border-radius: 1rem;
+        color: var(--background);
+        font-size: 1.4rem;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 500px) and (min-height: 600px) {
+
+
+    .search-container {
+        margin-bottom: 2rem;
+    }
+}
+
+@media screen and (min-width: 800px) and (min-height: 600px) {
+
+
+    .search-container {
+        margin-bottom: 2rem;
+    }
+}
+
+
+@media screen and (min-width: 1000px) and (min-height: 600px) {
+
+    .search-container {
+        margin-bottom: 4rem;
+        position: relative;
+        top: 2rem;
+    }
+}
+
+
+@media screen and (min-width: 300px) and (min-height: 800px) {
+
+
+    .search-container {
+        margin-bottom: 5rem;
+    }
+}
+
+@media screen and (min-width: 400px) and (min-height: 800px) {
+
+
+    .search-container {
+        margin-bottom: 3rem;
+    }
+}
+
+@media screen and (min-width: 800px) and (min-height: 800px) {
+
+
+    .search-container {
+        margin-bottom: 1rem;
+    }
+}
+
+@media screen and (min-width: 1500px) and (min-height: 800px) {
+
+
+    .search-container {
+        margin-bottom: 2rem;
+    }
+}
+
+@media screen and (min-width: 1500px) and (max-height: 850px) {
+
+    .search-container {
+        margin-bottom: 5rem;
+    }
+
+}
+
+@media screen and (max-height: 600px) {
+
+    .planets-container {
+        margin-bottom: 3rem;
+    }
+
+
+}
+
+@media screen and (max-height: 500px) {
+
+    .search-container {
+        margin-bottom: 2rem;
+    }
+
+
+}
+
+@media screen and (max-height: 400px) {
+
+    .search-container {
+        margin-bottom: 2rem;
+    }
+
+
 }

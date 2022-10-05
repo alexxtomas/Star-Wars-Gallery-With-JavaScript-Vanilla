@@ -2,13 +2,12 @@ header {
     margin: 2rem;
     padding: 10px 15px;
     position: sticky;
-
+    z-index: 2;
 }
 
 h1 {
-    font-weight: 700;
     text-align: center;
-    font-size: 4rem;
+    font-size: 5rem;
 
 }
 
@@ -16,5 +15,6 @@ header h2 {
     display: block;
     text-align: center;
     font-size: 2rem;
+
 
 }
