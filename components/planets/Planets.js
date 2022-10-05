@@ -3,7 +3,9 @@ import './styles.css'
 
 let PlanetsHTML = ''
 const planets = await planetsService.getAllPlanets()
+
 planets.forEach(({ image, name }) => {
+  console.log(image)
   PlanetsHTML += `
         <figure class="planet-figure">
             <img class="planet-image" src="${image}" alt="${name} image">

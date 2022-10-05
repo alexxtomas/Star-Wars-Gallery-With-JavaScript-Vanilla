@@ -35,20 +35,10 @@ html {
     scroll-behavior: smooth;
 }
 
-/* body {
-    background-color: var(--background);
-    background-image: url('./public/images/10114-starry-sky-stars-nebula-galaxy-space-4k.jpg');
-    color: var(--primary);
-    background-size: cover;
-    background-repeat: repeat;
-
-
-} */
 
 h1,
 h2,
-label,
-input {
+label {
     font-family: Starjhol, 'sans-serif';
     color: #fff;
 }
@@ -96,10 +86,3 @@ input {
     z-index: 1;
     animation: move-twink-back 200s linear infinite;
 }
-
-/* .clouds{
-    background:transparent url(clouds.png) repeat top center;
-    z-index:2;
-    opacity: .4;
-    animation:move-clouds-back 200s linear infinite;
-} */

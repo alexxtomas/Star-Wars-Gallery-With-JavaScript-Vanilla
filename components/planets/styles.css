@@ -4,6 +4,7 @@
     text-align: center;
     position: relative;
     z-index: 2;
+
 }
 
 .planet-figure {
@@ -13,12 +14,14 @@
     text-align: center;
     cursor: pointer;
 
+
 }
 
 .planet-image {
     width: 7rem;
     height: 7rem;
     border-radius: 50%;
+
 
 
 }
@@ -32,6 +35,10 @@
 .planet-figure:hover {
     width: 35%;
     height: 35%;
+}
+
+.selected-planet {
+    opacity: 1;
 }
 
 @media screen and (min-width: 800px) {
